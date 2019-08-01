@@ -21,5 +21,6 @@ from api import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/auth/', include('api.urls')),
-    path('api/v1/account/', views.AccountView.as_view())
+    path('api/v1/account/', views.AccountView.as_view()),
+    path('api/v1/VIPinfo/', views.VIPinfo.as_view())
 ]

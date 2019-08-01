@@ -1,10 +1,10 @@
 from django.http import JsonResponse, HttpResponse
-from django.shortcuts import render
-from rest_framework.authentication import BaseAuthentication
-from rest_framework.permissions import IsAuthenticated
 from rest_framework.views import APIView
+
 from . import models
-from rest_framework import exceptions
+from .utils import auth, permission, throttling
+
+
 # Create your views here.
 
 def md5(user):
@@ -19,6 +19,7 @@ def md5(user):
 
 class AuthView(APIView):
     '''用于用户登录认证'''
+
     def post(self, request, *args, **kwargs):
         ret = {'code': 1000, 'msg': None}
         try:
@@ -37,20 +38,12 @@ class AuthView(APIView):
         print(request.user)
         return JsonResponse(ret)
 
-class Authtication(BaseAuthentication):
-
-    def authenticate(self, request):
-        token = request._request.GET.get('token')
-        token_obj = models.UserToken.objects.filter(token=token).first()
-        if not token_obj:
-            raise exceptions.AuthenticationFailed('用户认证失败')
-        return (token_obj.user, token_obj)
-
 
 class AccountView(APIView):
     '''用于展示用户界面'''
 
-    authentication_classes = [Authtication, ]
+    authentication_classes = [auth.Authtication, ]
+    throttle_classes = [throttling.VisitThrottle, ]
 
     def get(self, request, *args, **kwargs):
         ret = {'code': 1000, 'msg': None, 'data': None}
@@ -60,3 +53,11 @@ class AccountView(APIView):
             pass
         # print(request.user)
         return JsonResponse(ret)
+
+class VIPinfo(APIView):
+
+    authentication_classes = [auth.Authtication, ]
+    permission_classes = [permission.Mypermission, ]
+
+    def get(self, request, *args, **kwargs):
+        return HttpResponse('欢迎您，我们尊贵的超级会员专属VIP特权用户！')

@@ -120,3 +120,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+REST_FRAMEWORK = {
+    # "DEFAULT_AUTHENTICATION_CLASSES": ['api.utils.auth.Authtication',],
+    # "UNAUTHENTICATION_USER": None,
+    # "UNAUTHENTICATION_TOKEN": None,
+    # "DEFAULT_PERMISSION_CLASSES": ['api.utils.permission.Mypermission']
+
+    'DEFAULT_THROTTLE_RATES': {
+        'reflact': '12/m',
+        'anon': '100/day',
+        'user': '1000/day'
+    }
+}
