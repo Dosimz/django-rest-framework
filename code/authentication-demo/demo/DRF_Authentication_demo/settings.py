@@ -125,8 +125,10 @@ REST_FRAMEWORK = {
     # "DEFAULT_AUTHENTICATION_CLASSES": ['api.utils.auth.Authtication',],
     # "UNAUTHENTICATION_USER": None,
     # "UNAUTHENTICATION_TOKEN": None,
+
     # "DEFAULT_PERMISSION_CLASSES": ['api.utils.permission.Mypermission']
 
+    # 'DEFAULT_THROTTLE_RATES': ['api.utils.throttling.VisitThrottle'],
     'DEFAULT_THROTTLE_RATES': {
         'reflact': '12/m',
         'anon': '100/day',

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb04db6-0aeb-4084-8379-ede9b5ddb90e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/api/utils/throttling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/DRF_Authentication_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/DRF_Authentication_demo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/DRF_Authentication_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/DRF_Authentication_demo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/demo/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/DRF_Authentication_demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="621">
               <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#647#679#0" expanded="true" />
@@ -79,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/DRF_Authentication_demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+            <state relative-caret-position="795">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -91,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="1134">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -103,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/api/utils/throttling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="54">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -112,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/rest_framework/throttling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1732">
-              <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+            <state relative-caret-position="162">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="e#2586#3099#0" />
                 <element signature="e#3141#3522#0" />
@@ -161,9 +156,9 @@
         <option value="$PROJECT_DIR$/demo/DRF_Authentication_demo/urls.py" />
         <option value="$PROJECT_DIR$/demo/api/utils/auth.py" />
         <option value="$PROJECT_DIR$/demo/api/utils/permission.py" />
-        <option value="$PROJECT_DIR$/demo/DRF_Authentication_demo/settings.py" />
         <option value="$PROJECT_DIR$/demo/api/views.py" />
         <option value="$PROJECT_DIR$/demo/api/utils/throttling.py" />
+        <option value="$PROJECT_DIR$/demo/DRF_Authentication_demo/settings.py" />
       </list>
     </option>
   </component>
@@ -222,7 +217,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../version-demo/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -254,12 +249,13 @@
       <workItem from="1564389877044" duration="3482000" />
       <workItem from="1564477141319" duration="9806000" />
       <workItem from="1564541980795" duration="9549000" />
-      <workItem from="1564623338746" duration="9753000" />
+      <workItem from="1564623338746" duration="12168000" />
+      <workItem from="1564705568792" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42867000" />
+    <option name="totallyTimeSpent" value="45352000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,11 +268,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1039" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26923078" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2724359" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -398,23 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/api/utils/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/api/utils/permission.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/rest_framework/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -426,16 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/DRF_Authentication_demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#647#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/http/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-799">
@@ -443,17 +411,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/DRF_Authentication_demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/demo/DRF_Authentication_demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+        <state relative-caret-position="621">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#647#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/utils/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="1134">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -462,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/api/utils/throttling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="54">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="19" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -472,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/rest_framework/throttling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1732">
-          <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+        <state relative-caret-position="162">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#2586#3099#0" />
             <element signature="e#3141#3522#0" />
@@ -482,6 +463,20 @@
             <element signature="e#4653#4760#0" />
             <element signature="e#4790#5227#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/utils/permission.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/DRF_Authentication_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
